@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.user-form {
+  margin: 100px auto;
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.login-button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  color: #000;
+}
+
+.reg-button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  color: #000;
+}
