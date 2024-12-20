@@ -14,10 +14,11 @@ body {
 }
 
 .user-form {
-  margin: 100px auto;
+  margin: auto;
+  margin-top: -100px;
   width: 400px;
   height: 200px;
-  background-color: #fff;
+  background-color: lemonchiffon;
   border: 1px solid black;
   border-radius: 10px;
   -webkit-border-radius: 10px;
