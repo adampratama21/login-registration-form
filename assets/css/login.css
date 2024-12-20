@@ -1,0 +1,110 @@
+body {
+  background-color: seashell;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-top: -100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: snow;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.login h2 {
+  width: 110px;
+  text-align: center;
+  margin: 0px auto 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  /* border: 1px solid black; */
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 15px;
+  width: 450px;
+  /* border: 1px solid black; */
+}
+
+.form-group label {
+  width: 180px;
+  text-align: right;
+  padding-right: 0px;
+  margin-right: 10px;
+  /* border: 1px solid black; */
+}
+
+.form-group input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.form-group span {
+  font-weight: 700;
+  margin-right: 10px;
+  /* border: 1px solid black; */
+}
+
+.form-group button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  width: 450px;
+  height: 30px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: rgb(15, 169, 153);
+  border: none;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+button:hover {
+  background: rgb(10, 137, 124);
+}
+
+.registration-link {
+  margin-bottom: -20px;
+}
+
+.registration-link a {
+  text-decoration: underline;
+}

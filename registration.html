@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendor/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/registration.css">
+    <title>Form Registrasi</title>
+</head>
+
+<body>
+    <form action="" method="post" class="form-registrasi">
+        <h2 class="text-uppercase">Form Registrasi</h2>
+        <div class="form-group">
+            <label for="fullname"><i class="fa-solid fa-user"></i> Nama Lengkap</label><span>:</span>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-group">
+            <label for="email"><i class="fa-solid fa-envelope"></i> Email</label><span>:</span>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password"><i class="fa fa-key"></i> Password
+            </label><span>:</span>
+            <input type="password" id="password" name="password" minlength="8" maxlength="16" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm_password"><i class="fa fa-key"></i> Konfirmasi Password</label><span>:</span>
+            <input type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="16" required>
+        </div>
+        <div class="form-group mx-auto">
+            <button type="submit">Daftar</button>
+        </div>
+        <div class="login-link text-start">
+            <p>Sudah punya akun? <a href="login.html">Login</a></p>
+        </div>
+    </form>
+    <script src="./assets/vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
